@@ -34,7 +34,7 @@
                 if($_POST["txtpass"]=="abc123")
                 {
                     $_SESSION["name"]=$_POST["txtname"];
-                    header("location:Examonline.php");        
+                    header("location:ExamOnline.php");        
                 }
                 else{
                     echo("<script> alert('Invaild Exam Password'); </script>");
